@@ -5,8 +5,8 @@ class Nav extends Component {
 
     render() {
         return (
-            <div className="nav container">
-                <div className="row">
+            <div className="container">
+                <div className="row text-center">
                     <div className="col"><Button title="Code" /></div>
                     <div className="col"><Button title="Words" /></div>
                     <div className="col"><Button title="Sound" /></div>

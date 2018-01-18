@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 
 class Entry extends Component {
-    constructor(props){
-        super(props);
-    }
 
     render() {
         return (
             <div className="entry container">
-                <div class="entryTitle">
-                    { this.props.entryTitle }
-                </div>
-                <div class="entryContent">
-                    { this.props.entryContent }
+                <div className="row">
+                    <div className="col-3">
+                        <div className="entryTitle">
+                            { this.props.entryName }
+                        </div>
+                    </div>
+                    <div className="col-9">
+                        <div className="entryContent">
+                            { this.props.entryContent }
+                        </div>
+                    </div>
                 </div>
             </div>
-
         );
     }
 }
