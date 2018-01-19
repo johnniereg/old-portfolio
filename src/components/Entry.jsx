@@ -5,14 +5,14 @@ class Entry extends Component {
     render() {
         return (
             <div className="entry container">
-                <div className="row">
-                    <div className="col-3">
-                        <div className="entryTitle">
+                <div className="row align-items-center">
+                    <div className="col-2 text-center">
+                        <div className="entry-title">
                             { this.props.entryName }
                         </div>
                     </div>
-                    <div className="col-9">
-                        <div className="entryContent">
+                    <div className="col-10">
+                        <div className="entry-content text-justify">
                             { this.props.entryContent }
                         </div>
                     </div>
