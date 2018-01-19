@@ -5,7 +5,7 @@ import Nav from './Nav.jsx';
 class Header extends Component {
     render() {
         return (
-            <div className="header container">
+            <div className="header container fixed-top">
                 <div className="row">
                     <Title title="Johnnie Regalado" />
                 </div>
