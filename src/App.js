@@ -14,6 +14,9 @@ class App extends Component {
   }
 
   selectSection(section) {
+    if (this.state.activeSection === section) {
+      section = 'none';
+    }
     this.setState({
       activeSection: section
     });
@@ -22,8 +25,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <Section />
+        <Header selectSection={this.selectSection} />
+        <Section activeSection={this.state.activeSection} />
         <Footer />
       </div>
     );
