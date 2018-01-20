@@ -9,7 +9,7 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row text-center">
                             <div className="col">
-                                <a href="https://www.github.com/johnniereg" target="_blank" rel="noopener noreferrer"><Button title="Github" /></a>
+                                <a href="https://www.github.com/johnniereg" target="_blank" rel="noopener noreferrer"><Button title="GitHub" /></a>
                             </div>
                             <div className="col">
                                 <a href="https://www.linkedin.com/in/johnnie-regalado" target="_blank" rel="noopener noreferrer"><Button title="LinkedIn" /></a>
