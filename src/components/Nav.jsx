@@ -18,21 +18,21 @@ class Nav extends Component {
     render() {
         return (
             <div className="container">
-                <div className="row text-center">
+                <div className="row text-center no-gutters">
                     <div className="col" onClick={(e) => this.props.selectSection("code")} >
-                        <Button title="Code" highlight={this.checkIfSelected(this.props.activeSection, 'code')} />
+                        <Button title="code" highlight={this.checkIfSelected(this.props.activeSection, 'code')} />
                     </div>
                     <div className="col" onClick={(e) => this.props.selectSection("words")} >
-                        <Button title="Words" highlight={this.checkIfSelected(this.props.activeSection, 'words')}/>
+                        <Button title="words" highlight={this.checkIfSelected(this.props.activeSection, 'words')}/>
                     </div>
                     <div className="col" onClick={(e) => this.props.selectSection("sound")} >
-                        <Button title="Sound" highlight={this.checkIfSelected(this.props.activeSection, 'sound')}/>
+                        <Button title="sound" highlight={this.checkIfSelected(this.props.activeSection, 'sound')}/>
                     </div>
                     <div className="col" onClick={(e) => this.props.selectSection("video")} >
-                        <Button title="Video" highlight={this.checkIfSelected(this.props.activeSection, 'video')}/>
+                        <Button title="video" highlight={this.checkIfSelected(this.props.activeSection, 'video')}/>
                     </div>
-                    <div className="col" onClick={(e) => this.props.selectSection("cv")} >
-                        <Button title="CV" highlight={this.checkIfSelected(this.props.activeSection, 'cv')}/>
+                    <div className="col" onClick={(e) => this.props.selectSection("contact")} >
+                        <Button title="contact" highlight={this.checkIfSelected(this.props.activeSection, 'contact')} />
                     </div>
                 </div>
             </div>
