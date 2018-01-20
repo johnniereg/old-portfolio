@@ -25,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header selectSection={this.selectSection} />
+        <Header selectSection={this.selectSection} activeSection={this.state.activeSection} />
         <Section activeSection={this.state.activeSection} />
         <Footer />
       </div>

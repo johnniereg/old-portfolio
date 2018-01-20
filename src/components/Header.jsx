@@ -11,7 +11,7 @@ class Header extends Component {
                     <Title title="Johnnie Regalado" />
                 </div>
                 <div className="row header-nav">
-                    <Nav selectSection={this.props.selectSection}/>
+                    <Nav selectSection={this.props.selectSection} activeSection={this.props.activeSection} />
                 </div>
             </div>
         );
