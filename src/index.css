@@ -11,6 +11,7 @@ body {
 .button:hover {
   font-weight: bold;
   color: #c50909;
+  cursor: pointer;
 }
 
 .empty {
