@@ -17,6 +17,7 @@ class App extends Component {
     if (this.state.activeSection === section) {
       section = 'none';
     }
+    console.log(section);
     this.setState({
       activeSection: section
     });

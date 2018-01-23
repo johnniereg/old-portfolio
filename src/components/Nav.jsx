@@ -25,8 +25,8 @@ class Nav extends Component {
                     <div className="col" onClick={(e) => this.props.selectSection("words")} >
                         <Button title="words" highlight={this.checkIfSelected(this.props.activeSection, 'words')}/>
                     </div>
-                    <div className="col" onClick={(e) => this.props.selectSection("sound")} >
-                        <Button title="sound" highlight={this.checkIfSelected(this.props.activeSection, 'sound')}/>
+                    <div className="col" onClick={(e) => this.props.selectSection("sounds")} >
+                        <Button title="sounds" highlight={this.checkIfSelected(this.props.activeSection, 'sounds')}/>
                     </div>
                     <div className="col" onClick={(e) => this.props.selectSection("video")} >
                         <Button title="video" highlight={this.checkIfSelected(this.props.activeSection, 'video')}/>
