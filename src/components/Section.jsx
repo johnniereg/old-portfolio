@@ -5,9 +5,6 @@ import Sounds from './Sounds.jsx';
 import Video from './Video.jsx';
 import Contact from './Contact.jsx';
 
-import Entry from './Entry.jsx';
-import Subtitle from './Subtitle.jsx';
-
 class Section extends Component {
 
     render() {

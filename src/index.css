@@ -29,9 +29,11 @@ body {
 
 .entry-content {
   padding: 5px 5px 5px 10px;
+  font-size: 14px;
 }
 
 .entry-title {
+  font-family: 'Fjalla One', sans-serif;
   font-size: 24px;
   color: #c50909;  
 }
@@ -75,6 +77,7 @@ body {
 }
 
 .subtitle {
+  font-family: 'Fjalla One', sans-serif;
   background-color: #fffffff0;  
   margin-bottom: 25px;
   font-size: 36px;
@@ -86,6 +89,7 @@ body {
 }
 
 .subtitle-text {
+  font-family: 'Raleway', sans-serif;
   color: black;
   font-size: 14px;
   margin-top: -10px;
