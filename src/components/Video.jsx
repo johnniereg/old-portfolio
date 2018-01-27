@@ -8,7 +8,18 @@ class Video extends Component {
         return (
             <div className="section container">
                 <Subtitle title={"video"} subtitleText={"samples of my video work"} />
-                <Entry entryName={"sample video"} entryContent={"Listen to the strange sounds of Campus and Community Radio across Canada with this app. Built in React, Express, Node, PostgresQL and deployed on Heroku."} />
+                <Entry entryName={"basement closet sessions"} 
+                    entryContent={
+                        <div>
+                            <p>Basement Closet Sessions is an award-winning video series that features live in studio music performances by local and touring artists visiting CFUV 101.9 FM</p>
+                        </div>
+                    } />
+                <Entry entryName={"freshman's wharf"}
+                    entryContent={
+                        <div>
+                            <p>Webseries produced by the University of Victoria. Winner of the BC Leo Film Award.</p>
+                        </div>
+                    } />
             </div>
         );
     }

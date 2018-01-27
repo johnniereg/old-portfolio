@@ -8,7 +8,12 @@ class Sounds extends Component {
         return (
             <div className="section container">
                 <Subtitle title={"sounds"} subtitleText={"samples of my audio work"} />
-                <Entry entryName={"sample audio"} entryContent={"Listen to the strange sounds of Campus and Community Radio across Canada with this app. Built in React, Express, Node, PostgresQL and deployed on Heroku."} />
+                <Entry entryName={"true north"} 
+                    entryContent={
+                        <div>
+                            <p>True North was a nationally syndicated music radio program focused on the strange and experimental sounds of Canadian rock, pop and electronic music.</p>
+                        </div>
+                    } />
             </div>
         );
     }

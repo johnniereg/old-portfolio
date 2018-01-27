@@ -8,7 +8,12 @@ class Words extends Component {
         return (
             <div className="section container">
                 <Subtitle title={"words"} subtitleText="samples of my published writing" />
-                <Entry entryName={"writing sample"} entryContent={"Listen to the strange sounds of Campus and Community Radio across Canada with this app. Built in React, Express, Node, PostgresQL and deployed on Heroku."} />
+                <Entry entryName={"weird canada"} 
+                    entryContent={
+                        <div>
+                            <p>I am a senior editor for the award winning music publication Weird Canada.</p>
+                        </div>
+                    } />
             </div>
         );
     }

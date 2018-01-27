@@ -9,7 +9,11 @@ class Contact extends Component {
             <div className="section container">
                 <Subtitle className="title" title={"contact"} subtitleText={"get in touch"} />
                 <Entry entryName={"contact info"} 
-                    entryContent={"I'm always interested in new opportunities and collaborations. Get in touch if you think we can work together. Reach my by email ~~~ johnniereg@gmail.com"} />
+                    entryContent={
+                        <div>
+                            <p>I'm always interested in new opportunities and collaborations.</p><p>Get in touch if you think we can work together.</p><p>Reach my by email ~~~ johnniereg@gmail.com"</p>
+                        </div>
+                    } />
             </div>
         );
     }
